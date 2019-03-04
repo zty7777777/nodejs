@@ -13,7 +13,7 @@ var app  =express();
 
 app.use(express.static(__dirname));
 
-var server = app.listen(8080, '192.168.18.129');
+var server = app.listen(3000, 'ws://39.105.25.213');
 
 
 var ws = io.listen(server);
